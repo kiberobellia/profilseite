@@ -1,0 +1,83 @@
+/* Dies ist die Stylesheet für die Profilseite */
+
+/* BODY */
+body {
+
+    background-color: floralwhite;
+    color: black;
+}
+
+/* HEADER */
+.site-header {
+
+    background-color: steelblue;
+    color: black;
+    padding: 1rem;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+
+/* NAVIGATIONSLEISTE */
+.site-nav li {
+
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.site-nav {
+    background-color: slategray;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.site-nav ul {
+
+    padding: 0;
+    margin: 0;
+}
+
+.site-nav a {
+
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* MAIN INHALT */
+
+.site-content {
+    margin: 0.5rem;
+}
+
+.articel-infos {
+    background-color: whitesmoke;
+    
+}
+/* FUßZEILE */
+
+.site-footer {
+    background-color: lightslategray;
+    color: white;
+    text-align: right;
+    padding: 0.5rem;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-nav li {
+    display: inline;
+    
+}
+html {
+    scroll-behavior: smooth;
+}

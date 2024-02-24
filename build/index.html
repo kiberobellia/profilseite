@@ -1,0 +1,112 @@
+<!-- Das ist das Index HTML Dokument --> 
+
+<!doctype HTML> 
+
+<html lang="de" id="top">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profil Seite</title>
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="description" content="Das ist eine Profilseite für mich. Sie dient als Übung für die Webprogrammierung">
+        <style>
+            img {
+                max-width: 100%;
+            }
+        </style>
+    </head>
+
+    <body> 
+
+        <!--Kopfbereich-->
+        <header class="site-header">
+            <h1><img src="img/Pimmel_Logo.svg" alt="Logo" width="200" height="150"><img src="img/Rastergrafik.svg" alt="Philipp Bellia" width="400" height="150"></h1> 
+        </header>
+
+        <!--Navigationsbereich-->
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="bachelor.html">Biomedizintechnik</a></li>
+                <li><a href="#">Kommunikationsinformatik</a></li>
+            </ul>
+        </nav>
+
+        <!--Inhaltsbereich-->
+        <main class="site-content" id="content">
+            <section class="section-einführung"></section>
+                <h2>Hallo, Ich bin Philipp</h2>
+                    <p>Diese Seite dient als Übung um mit <strong>HTML und CSS</strong> vertraut zu werden. Ziel ist es, am Ende eine Webeite zu kreieren,
+                        die einen <em>Überblick über mein Studienverlauf</em> gibt.
+                    </p>
+            </section>
+            
+            <section class="section-bachelor">
+            <h3>Inhalt des Bachelor Studiums <strong>Medizintechnik</strong></h3>
+                <ul>
+                    <li>viel Elektrotechnik</li>
+                    <li>wenig Medizin</li>
+                    <li>unter eigener Verantwortung und Wahl, viel Informatik</li>
+                    <li>Darunter:
+                        <ul>
+                            <li>allgemeine Grundlagen für Ingenieure</li>
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>künstiliche Inteligenz</li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </section>
+
+            <section class="section-master">
+                <h3>Inhalt des Master Studiums <strong>Kommunikationsinformatik</strong></h3>
+                <ul>
+                    <li>Kommunikationsstrukturen auf verteilten Systemen</li>
+                    <li>komplexe Kommunikationsstrukturen</li>
+                    <li>diskrete Mathematik</li>
+                    <li>Komplexitätstheorie</li>
+                    <li>Modellierungssprachen</li>
+                </ul>
+            </section>
+
+            <article class="articel-infos">
+                <h3>Sonstige Informationen</h3>
+
+                <p>Ich habe eine Freundin und einen Hund. 
+                    Meine Hobbies sind: 
+                    <ul>
+                        <li>Tischtennis</li>
+                        <li>Gaming</li>
+                        <li>Programmieren</li>
+                    </ul>
+                    
+                </p>
+            </article>
+
+            <section class="KontaktMainPAge">
+                <h3>Kontakt</h3>
+                <p>Wenn du mich kontaktierne willst, <a href="#">chreibe mir doch eine Nachricht</a>.</p>
+            </section>
+        </main>
+
+        <!--Fußbereich-->
+        <footer class="site-footer">
+            <!-- Mit dem Attribut target="_blank" rel="noreferrer noopener" kann der Link in einem eigenem Tab geöffnet werden -->
+            <lu>
+                <li><a href="#top">Zürück zum Anfang</a></li>
+                <li><a href="https://www.instagram.com/nenn.mich.philipp/" target="_blank" rel="noreferrer noopener">Insta</a></li>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="index.html">Startseite</a></li>
+                        <li><a href="bachelor.html">Biomedizintechnik</a></li>
+                        <li><a href="#">Kommunikationsinformatik</a></li>
+                    </ul>
+                </nav>
+            </lu>
+        </footer>
+
+    </body>
+
+</html>
