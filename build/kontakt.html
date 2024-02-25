@@ -5,6 +5,64 @@
     <link href="css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-    
+<body class="website">
+    <!--Kopfbereich-->
+    <header class="site-header">
+        <h1><img src="img/Pimmel_Logo.svg" alt="Logo" width="200" height="150"><img src="img/Rastergrafik.svg" alt="Philipp Bellia" width="400" height="150"></h1> 
+    </header>
+
+    <!--Navigationsbereich-->
+    <nav class="site-nav">
+        <ul>
+            <li class="current"><a href="index.html">Startseite</a></li>
+            <li><a href="bachelor.html">Biomedizintechnik</a></li>
+            <li><a href="#">Kommunikationsinformatik</a></li>
+        </ul>
+    </nav>
+
+    <!--Inhaltsbereich-->
+    <main class="site-content" id="content">
+        <h3>Schreibe eine Nachricht</h3>
+        <form action="#" method="post">
+            <div>
+                <label for="benutzername">Dein Name:</label>
+                <input type="text" id="benutzername" name="benutzername" required>
+            </div>
+
+            <div>
+                <label for="benutzermail">Deine Mail:</label>
+                <input type="email" id="benutzermail" name="benutzermail" required>
+            </div>
+
+            <div>
+                <label for="nachricht">Deine Nachricht:</label>
+                <textarea name="nachricht" id="nachricht" cols="30" rows="10" required></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" name="Datenschutzerklärung" id="Datenschutzerklärung" required>
+                <label for="Datenschutzerklärung">Mit dem Bestätigen, sind Sie einverstanden, dass ihre Daten gespeichert und weiterverarbeitet werden</label>
+            </div>
+
+            <div>
+                <button>Senden</button>
+            </div>
+        </form>
+    </main>
+
+    <!--Fußbereich-->
+    <footer class="site-footer">
+        <!-- Mit dem Attribut target="_blank" rel="noreferrer noopener" kann der Link in einem eigenem Tab geöffnet werden -->
+        <lu>
+            <li><a href="#top">Zürück zum Anfang</a></li>
+            <li><a href="https://www.instagram.com/nenn.mich.philipp/" target="_blank" rel="noreferrer noopener">Insta</a></li>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="bachelor.html">Biomedizintechnik</a></li>
+                    <li><a href="#">Kommunikationsinformatik</a></li>
+                </ul>
+            </nav>
+        </lu>
+    </footer>
 </body>
