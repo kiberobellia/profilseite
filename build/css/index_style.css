@@ -1,0 +1,38 @@
+/* Dies ist die Stylesheet für die Startseite */
+
+/* BODY */
+
+.startseite {
+    background-color: #35374B;
+}
+
+.site-header {
+    background-color: #344955;
+    margin-top: 0.1rem;
+}
+
+.site-nav {
+    background-color: #78A083;
+    padding: 0.4rem;
+}
+
+.site-nav li {
+    display: inline;
+    margin-right: 0.8rem;
+    text-decoration: none;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-content{
+    color: #EEF0E5;
+}
+
+.site-footer {
+    background-color: #344955;
+}
+
+
