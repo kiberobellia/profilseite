@@ -1,83 +1,108 @@
-/* Dies ist die Stylesheet für die Profilseite */
+/* Dies ist die Stylesheet für die Startseite */
 
 /* BODY */
-body {
 
-    background-color: floralwhite;
-    color: black;
+.startseite {
+    background-color: #35374B;
 }
 
-/* HEADER */
+.website {
+    background-color: #35374B;
+}
+
 .site-header {
-
-    background-color: steelblue;
-    color: black;
-    padding: 1rem;
-}
-
-.site-header h1 {
-    margin: 0;
-}
-
-/* NAVIGATIONSLEISTE */
-.site-nav li {
-
-    display: inline;
-    margin-right: 0.5rem;
+    background-color: #344955;
+    margin: -1.3rem;
 }
 
 .site-nav {
-    background-color: slategray;
-    padding: 0.5rem;
-    margin: 1rem;
+    background-color: #78A083;
+    padding: 0.4rem;
+    margin: -1.5rem;
 }
 
-.site-nav ul {
-
-    padding: 0;
-    margin: 0;
+.site-nav li {
+    display: inline;
+    margin-right: 0.8rem;
+    text-decoration: none;
 }
 
 .site-nav a {
-
-    color: whitesmoke;
+    padding: 0.2rem;
     text-decoration: none;
-}
-
-/* MAIN INHALT */
-
-.site-content {
-    margin: 0.5rem;
-}
-
-.articel-infos {
-    background-color: whitesmoke;
-    
-}
-/* FUßZEILE */
-
-.site-footer {
-    background-color: lightslategray;
     color: white;
-    text-align: right;
-    padding: 0.5rem;
+}
+
+.current a {
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    color: white;
+    background-color: #35374B;
+}
+
+.site-content{
+    color: #EEF0E5;
+    margin: 2rem;
+}
+
+.site-content a {
+    color: white;
+}
+.site-footer {
+    background-color: #344955;
+    padding: 1rem;
+    margin: -1.5rem;
+}
+
+.site-footer ul {
+    padding: 1rem;
+    display: inline;
+    margin-right: 0.8rem;
+}
+.site-footer li {
+    display: inline;
+    margin-right: 0.8rem;
+    text-decoration: none;
 }
 
 .site-footer a {
-    color: white;
+    padding: 0.5rem;
     text-decoration: none;
-}
-
-.footer-nav {
     color: white;
-    text-decoration: none;
-
 }
 
-.footer-nav li {
-    display: inline;
-    
+.h3k {
+    margin-top: 4rem;
+    margin-left: 2rem;
 }
-html {
-    scroll-behavior: smooth;
+
+.Kontaktformular {
+    padding: 2rem;
+    background-color: #29363e;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+
+.msg {
+    margin-bottom: 2rem;
+}
+
+.senden-button {
+    margin-top: 1rem;
+}
+
+.bname {
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.bmail {
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.bmsg {
+    padding: 0.5rem;
+    border-radius: 1rem; 
 }
