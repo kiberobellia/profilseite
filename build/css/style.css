@@ -2,6 +2,10 @@
 
 /* BODY */
 
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .startseite {
     background-color: #35374B;
 }
@@ -13,12 +17,16 @@
 .site-header {
     background-color: #344955;
     margin: -1.3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .site-nav {
     background-color: #78A083;
     padding: 0.4rem;
     margin: -1.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .site-nav li {
@@ -50,6 +58,7 @@
     color: white;
 }
 .site-footer {
+    display: flexbox;
     background-color: #344955;
     padding: 1rem;
     margin: -1.5rem;
@@ -82,6 +91,8 @@
     background-color: #29363e;
     margin: 2rem;
     border-radius: 2rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .msg {
@@ -105,4 +116,60 @@
 .bmsg {
     padding: 0.5rem;
     border-radius: 1rem; 
+}
+
+.bachelor-info {
+
+    background: #21222d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin: 1rem;
+
+}
+
+.section-einführung {
+    background: #21222d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin: 1rem;
+
+}
+
+.section-bachelor {
+    background: #21222d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin: 1rem;
+
+}
+
+.section-master {
+    background: #21222d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin: 1rem;
+
+}
+
+.articel-infos { 
+    background: #21222d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin: 1rem;
+
+}
+
+.KontaktMainPage {
+    background: #21222d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin: 1rem;
+
+}
+
+.news {
+    background: #21222d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin: 1rem;
 }
