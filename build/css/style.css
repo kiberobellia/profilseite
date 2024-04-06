@@ -3,26 +3,31 @@
 /* BODY */
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+
+body.h2 {
+    font-weight: 500;
 }
 
 .startseite {
-    background-color: #35374B;
+    background-color: #9d9fb2;
 }
 
 .website {
-    background-color: #35374B;
+    background-color: #9d9fb2;
 }
 
 .site-header {
-    background-color: #344955;
+    background-color: #9d9fb2;
     margin: -1.3rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 
 }
 
 .site-nav {
-    background-color: #78A083;
+    background-color: #1e2d4b;
     padding: 0.4rem;
     margin: -1.5rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -42,35 +47,35 @@ body {
 }
 
 .current a {
-    padding: 1rem;
-    border: 2px solid black;
-    border-radius: 1rem;
+    padding: 0.9rem;
+    border-radius: 1.7rem;
     color: white;
-    background-color: #35374B;
+    background-color: #1c1c1d;
 }
 
 .site-content{
     color: #EEF0E5;
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .site-content a {
     color: white;
 }
+
 .site-footer {
     display: flexbox;
-    background-color: #344955;
+    background-color: #1e2d4b;
     padding: 1rem;
-    margin: -1.5rem;
+    margin-bottom: -1.5rem;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
 }
 
 .site-footer ul {
     padding: 1rem;
-    display: inline;
     margin-right: 0.8rem;
 }
 .site-footer li {
-    display: inline;
     margin-right: 0.8rem;
     text-decoration: none;
 }
@@ -84,15 +89,18 @@ body {
 .h3k {
     margin-top: 4rem;
     margin-left: 2rem;
+    font-weight: 1000;
+    font-size: 2.5rem;
 }
 
 .Kontaktformular {
     padding: 2rem;
-    background-color: #29363e;
+    background-color: #1e2d4b;
     margin: 2rem;
     border-radius: 2rem;
+    border: 2px;
+    border-color: #202a30;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-
 }
 
 .msg {
@@ -116,60 +124,24 @@ body {
 .bmsg {
     padding: 0.5rem;
     border-radius: 1rem; 
-}
-
-.bachelor-info {
-
-    background: #21222d;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 0.3rem;
-    margin: 1rem;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
-.section-einführung {
+.content {
     background: #21222d;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 0.3rem;
+    padding: 0.7rem;
+    padding-left: 1rem;
     margin: 1rem;
-
-}
-
-.section-bachelor {
-    background: #21222d;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 0.3rem;
-    margin: 1rem;
-
-}
-
-.section-master {
-    background: #21222d;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 0.3rem;
-    margin: 1rem;
-
-}
-
-.articel-infos { 
-    background: #21222d;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 0.3rem;
-    margin: 1rem;
-
 }
 
 .KontaktMainPage {
     background: #21222d;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 0.3rem;
-    margin: 1rem;
-
-}
-
-.news {
-    background: #21222d;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    padding: 0.3rem;
+    padding-left: 1rem;
     margin: 1rem;
 }
+
