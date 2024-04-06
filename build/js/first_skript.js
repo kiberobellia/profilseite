@@ -1,10 +1,12 @@
 // erstes skript
 
+const vorname = prompt("Vorname: ")
+const nachname = prompt("Nachname: ")
+let alter = prompt("Alter: ")
 
-const name = "Philipp";
-const nachname = "Bellia";
-let alter = 24;
+document.write("Steckbrief" + "<br>")
+document.write("Name: " + nachname + "<br>")
+document.write("Vorname: "+ vorname + "<br>")
+document.write(" Alter: "  + alter + " Jahre" + "<br>")
+           
 
-document.write("Hallo, mein Name ist " + name + " " + nachname + " und ich bin " + alter + " Jahre alt." );
-
-let eingabe = prompt();

@@ -9,18 +9,19 @@ body {
 
 body.h2 {
     font-weight: 500;
+    color: #1e2d4b;
 }
 
 .startseite {
-    background-color: #9d9fb2;
+    background-color: #e8e9ee;
 }
 
 .website {
-    background-color: #9d9fb2;
+    background-color: #e8e9ee;
 }
 
 .site-header {
-    background-color: #9d9fb2;
+    background-color: #e8e9ee;
     margin: -1.3rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 
@@ -44,13 +45,15 @@ body.h2 {
     padding: 0.2rem;
     text-decoration: none;
     color: white;
+    font-weight: 700;
+    
 }
 
 .current a {
     padding: 0.9rem;
-    border-radius: 1.7rem;
-    color: white;
-    background-color: #1c1c1d;
+    color: #1e2d4b;
+    background-color: #dedfeb;
+    font-weight: 900;
 }
 
 .site-content{
@@ -91,6 +94,7 @@ body.h2 {
     margin-left: 2rem;
     font-weight: 1000;
     font-size: 2.5rem;
+    color: #1e2d4b;
 }
 
 .Kontaktformular {
